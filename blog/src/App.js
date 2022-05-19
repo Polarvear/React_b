@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <div className="black-nav">
-        <h4 style={ {color : 'red', fontSize : '16px'} }>{ logo }</h4>
+        <h4 style={ {color : 'blue', fontSize : '16px'} }>{ logo }</h4>
       </div>
       <div className='list'>
         <h4>{ 글제목 }</h4>
