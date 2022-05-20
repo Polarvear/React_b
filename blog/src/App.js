@@ -23,9 +23,14 @@ function App() {
       <div className="black-nav">
         <h4 style={ {color : 'blue', fontSize : '16px'} }>{ logo }</h4>
       </div>
+      <button onClick={ () => { // array 원본을 보존하는 게 좋음
+        let copy = [...글제목];
+        copy[0] = '겨울'
+        setTitle(copy);
+       } }>글 수정</button>
+
       <div className='list'>
         <h4>{ 글제목[0] } 
-        <button onClick={ () => { setTitle(글제목[3] ) }}>이름 변경</button>
         <span onClick={ () => { setLike(like + 1) } }>👍</span> { like } </h4> 
         <p>2월 17일 발행</p>
       </div>
