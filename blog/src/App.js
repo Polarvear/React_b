@@ -24,7 +24,7 @@ function App() {
         <h4 style={ {color : 'blue', fontSize : '16px'} }>{ logo }</h4>
       </div>
       <button onClick={ () => { // array 원본을 보존하는 게 좋음
-        let copy = [...글제목];
+        let copy = [...글제목];// 디스트럭쳐링 할당으로 배열을 복사함 얕은 복사
         copy[0] = '겨울'
         setTitle(copy);
        } }>글 수정</button>
