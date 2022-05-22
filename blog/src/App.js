@@ -31,7 +31,7 @@ function App() {
 
       <div className='list'>
         <h4>{ 글제목[0] } 
-        <span onClick={ () => { setLike(like + 1) } }>👍</span> { like } </h4> 
+        <span onClick={ () => { setLike(like + 10) } }>👍</span> { like } </h4> 
         <p>2월 17일 발행</p>
       </div>
       <div className='list'>
