@@ -36,7 +36,7 @@ function App() {
       </div>
       <div className='list'>
         <h4>{ 글제목[1] }</h4> 
-        <p>2월 19일 발행</p>
+        <p>2월 20일 발행</p>
       </div>
       <div className='list'>
         <h4>{ 글제목[2] }</h4> 
