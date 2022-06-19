@@ -14,7 +14,7 @@ function App() {
   // a 는 변수명 b 는 state 변경 도와주는 함수 디스트럭쳐링 문법
   let [logo, setLogo] = useState('React Blog');
   let [like, setLike] = useState(0)
-  // onClick 안에는 항상 함수를 넣어줘야함
+  // onClick 안에는 항상 함수를 넣어줘야함.
   // state는 등호로 변경하면 안됨 state 두번쨰 변수명을 사용하면 됨
   
 
