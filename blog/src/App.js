@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <div className="black-nav">
-        <h4 style={ {color : 'gray', fontSize : '16px'} }>{ logo }</h4>
+        <h4 style={ {color : 'gray', fontSize : '17px'} }>{ logo }</h4>
       </div>
       <button onClick={ () => { // array 원본을 보존하는 게 좋음
         let copy = [...글제목];// 디스트럭쳐링 할당으로 배열을 복사함 얕은 복사
