@@ -25,7 +25,7 @@ function App() {
       </div>
       <button onClick={ () => { // array 원본을 보존하는 게 좋음
         let copy = [...글제목];// 디스트럭쳐링 할당으로 배열을 복사함 얕은 복사
-        copy[0] = '겨울'
+        copy[0] = '가을'
         setTitle(copy);
        } }>글 수정</button>
 
